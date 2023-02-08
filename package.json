@@ -1,0 +1,25 @@
+{
+  "name": "sass-parcel-template",
+  "version": "1.0.0",
+  "description": "> Template to help make it easy to start a project with Sass and parcel enabled with quick auto-refresh.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tchilo/Sass-parcel-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tchilo/Sass-parcel-template/issues"
+  },
+  "homepage": "https://github.com/Tchilo/Sass-parcel-template#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  }
+}

@@ -1,0 +1,17 @@
+@use 'reset' as *;
+@use 'breakpoints' as *;
+@use 'colors' as *;
+
+
+$red: red;
+$white: white;
+body {
+  background: $red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: $white;
+}
